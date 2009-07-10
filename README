@@ -1,0 +1,11 @@
+This project is the interface for 
+the automatic ticket selling systems 
+that are designed to sell tickets for
+different parks, museums, etc.
+
+This project is being implemented with 
+the use of Qt framework. 
+
+
+
+Fedor Sakharov <fedor.sakharov@gmail.com>
