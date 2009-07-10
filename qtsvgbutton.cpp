@@ -11,6 +11,15 @@ QtSvgButton::QtSvgButton(QWidget * parent)
     setAttribute(Qt::WA_Hover, true);
 }
 
+QtSvgButton::QtSvgButton(const QtSvgButton& btn)
+{
+	this->m_defaultSize = btn.m_defaultSize;
+	this->m_normal = btn.m_normal;
+	this->m_hovered = btn.m_hovered;
+	this->m_pressed = btn.m_pressed;
+	this->m_skin = btn.m_skin;
+}
+
 QtSvgButton::~QtSvgButton()
 {
 }
@@ -30,22 +39,22 @@ void QtSvgButton::setSkin(const QString& skin)
     QPainter painter;
 
     if (renderer.load(base + "normal.svg")) {
-        m_defaultSize = renderer.defaultSize();
-        painter.begin(&m_normal);
-        renderer.render(&painter, QRectF(0.0, 0.0, 1.0, 1.0));
-        painter.end();
+	m_defaultSize = renderer.defaultSize();
+	painter.begin(&m_normal);
+	renderer.render(&painter, QRectF(0.0, 0.0, 1.0, 1.0));
+	painter.end();
     }
 
     if (renderer.load(base + "pressed.svg")) {
-        painter.begin(&m_pressed);
-        renderer.render(&painter, QRectF(0.0, 0.0, 1.0, 1.0));
-        painter.end();
+	painter.begin(&m_pressed);
+	renderer.render(&painter, QRectF(0.0, 0.0, 1.0, 1.0));
+	painter.end();
     }
 
     if (renderer.load(base + "hovered.svg")) {
-        painter.begin(&m_hovered);
-        renderer.render(&painter, QRectF(0.0, 0.0, 1.0, 1.0));
-        painter.end();
+	painter.begin(&m_hovered);
+	renderer.render(&painter, QRectF(0.0, 0.0, 1.0, 1.0));
+	painter.end();
     }
 
     // update geometry for new sizeHint and repaint
@@ -82,18 +91,18 @@ void QtSvgButton::paintEvent(QPaintEvent * event)
     painter.scale(buttonRect().width(), buttonRect().height());
 
     if (isDown()) {
-        m_pressed.play(&painter);
+	m_pressed.play(&painter);
     } else if (underMouse()) {
-        m_hovered.play(&painter);
+	m_hovered.play(&painter);
     } else {
-        m_normal.play(&painter);
+	m_normal.play(&painter);
     }
 }
 
 QSize QtSvgButton::sizeHint() const
 {
     if (!m_defaultSize.isEmpty()) {
-        return m_defaultSize;
+	return m_defaultSize;
     } else {
 	return QSize(100, 24);
     }

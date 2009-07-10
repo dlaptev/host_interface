@@ -4,6 +4,8 @@
 TARGET = host_interface
 TEMPLATE = app
 SOURCES += main.cpp \
-    qtsvgbutton.cpp
-QT      += svg
-HEADERS += qtsvgbutton.h
+    qtsvgbutton.cpp \
+    qt_hostview.cpp
+QT += svg
+HEADERS += qtsvgbutton.h \
+    qt_hostview.h
