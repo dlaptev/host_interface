@@ -1,0 +1,69 @@
+\hypertarget{classinterface__view}{
+\section{interface\_\-view Class Reference}
+\label{classinterface__view}\index{interface\_\-view@{interface\_\-view}}
+}
+A single view for the terminal interface.  
+
+
+{\tt \#include $<$interface\_\-view.h$>$}
+
+\subsection*{Public Slots}
+\begin{CompactItemize}
+\item 
+\hypertarget{classinterface__view_2cbfdb9bdf8d47fd9a381df0bc67f434}{
+void \hyperlink{classinterface__view_2cbfdb9bdf8d47fd9a381df0bc67f434}{buttonPressed} (int)}
+\label{classinterface__view_2cbfdb9bdf8d47fd9a381df0bc67f434}
+
+\begin{CompactList}\small\item\em some button is pressed on the interface \item\end{CompactList}\end{CompactItemize}
+\subsection*{Signals}
+\begin{CompactItemize}
+\item 
+\hypertarget{classinterface__view_3539e6da0e6f70096c07ecb1ba27727a}{
+void \hyperlink{classinterface__view_3539e6da0e6f70096c07ecb1ba27727a}{choice} (int cosen)}
+\label{classinterface__view_3539e6da0e6f70096c07ecb1ba27727a}
+
+\begin{CompactList}\small\item\em signal to inform the manager, what has been chosen \item\end{CompactList}\end{CompactItemize}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hypertarget{classinterface__view_6c9506e36ddc99d55082b465e7fe89e7}{
+int \hyperlink{classinterface__view_6c9506e36ddc99d55082b465e7fe89e7}{getLastChoice} ()}
+\label{classinterface__view_6c9506e36ddc99d55082b465e7fe89e7}
+
+\begin{CompactList}\small\item\em get the last button that was pressed on that view \item\end{CompactList}\item 
+\hypertarget{classinterface__view_20cb4b527c4a0de449526e588e40498a}{
+\hyperlink{classinterface__view_20cb4b527c4a0de449526e588e40498a}{interface\_\-view} ()}
+\label{classinterface__view_20cb4b527c4a0de449526e588e40498a}
+
+\begin{CompactList}\small\item\em default constructor \item\end{CompactList}\item 
+\hypertarget{classinterface__view_3dc8b90c1b4ce4a59151ad7464e8fbb8}{
+\hyperlink{classinterface__view_3dc8b90c1b4ce4a59151ad7464e8fbb8}{interface\_\-view} (const QString \&)}
+\label{classinterface__view_3dc8b90c1b4ce4a59151ad7464e8fbb8}
+
+\begin{CompactList}\small\item\em constructor with the name specified \item\end{CompactList}\item 
+\hypertarget{classinterface__view_5df31c60fdf8e3f87143493a82b8357d}{
+\hyperlink{classinterface__view_5df31c60fdf8e3f87143493a82b8357d}{interface\_\-view} (const QList$<$ QVBoxLayout $\ast$ $>$)}
+\label{classinterface__view_5df31c60fdf8e3f87143493a82b8357d}
+
+\begin{CompactList}\small\item\em constructor to build custom Vertical Layouts \item\end{CompactList}\item 
+\hypertarget{classinterface__view_29c11da47c599da473ff2fe098454e00}{
+int \hyperlink{classinterface__view_29c11da47c599da473ff2fe098454e00}{addButton} (QAbstractButton $\ast$, int vlayout=0)}
+\label{classinterface__view_29c11da47c599da473ff2fe098454e00}
+
+\begin{CompactList}\small\item\em add button to the view, vlayout -- the number of vert layout to add button to \item\end{CompactList}\item 
+\hypertarget{classinterface__view_019075445aa648d995d24806b2f6126e}{
+int \textbf{addHtml} (const QWidget \&)}
+\label{classinterface__view_019075445aa648d995d24806b2f6126e}
+
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+A single view for the terminal interface. 
+
+This represents a single view in the terminal interface. It may contain buttons, html views, labels, and other children of QWidget. Basically there are three vertical layouts in the class, contained in one main horisontal layout 
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+interface\_\-view.h\item 
+interface\_\-view.cpp\end{CompactItemize}
