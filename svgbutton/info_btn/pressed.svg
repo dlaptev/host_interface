@@ -14,7 +14,7 @@
    id="svg2383"
    sodipodi:version="0.32"
    inkscape:version="0.46"
-   sodipodi:docname="info_pressed.svg"
+   sodipodi:docname="pressed.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0">
   <defs
@@ -91,9 +91,9 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1440"
-     inkscape:window-height="853"
-     inkscape:window-x="0"
-     inkscape:window-y="24" />
+     inkscape:window-height="842"
+     inkscape:window-x="-5"
+     inkscape:window-y="-3" />
   <metadata
      id="metadata2388">
     <rdf:RDF>
@@ -154,7 +154,7 @@
        xml:space="preserve"
        id="flowRoot3299"
        style="font-size:283.87817383px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Utopia;-inkscape-font-specification:Utopia Italic"
-       transform="matrix(3.1394195,0,0,1.8940893,-1102.525,-283.63371)"><flowRegion
+       transform="matrix(3.1394195,0,0,1.8940893,-1066.8107,-306.49085)"><flowRegion
          id="flowRegion3301"><rect
            id="rect3303"
            width="520"
@@ -163,7 +163,7 @@
            y="95.219322"
            style="font-size:283.87817383px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Utopia;-inkscape-font-specification:Utopia Italic" /></flowRegion><flowPara
          id="flowPara3305"
-         style="font-size:283.87817383px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Utopia;-inkscape-font-specification:Utopia Italic">i</flowPara></flowRoot>    <path
+         style="font-size:283.87817383px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Italic">i</flowPara></flowRoot>    <path
        style="opacity:1;fill:#ffffff;fill-opacity:0.17316021;stroke:none;stroke-width:27.41173744;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M -257.80664,493.39653 C -406.39341,484.8251 -362.23516,475.36171 -435.0923,436.27598 C -459.70193,423.07363 -442.26932,449.71784 -504.37066,372.30277 C -440.89507,318.63322 -308.67892,260.59585 -243.95908,243.41885 C -179.47921,226.30554 -96.48465,222.85948 12.345243,227.5617 C -3.61988,386.30507 -125.26804,493.39653 -257.80664,493.39653 z"
        id="path3283"

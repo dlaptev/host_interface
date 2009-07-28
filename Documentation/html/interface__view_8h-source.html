@@ -21,55 +21,54 @@
 <h1>interface_view.h</h1><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#ifndef INTERFACE_VIEW_H</span>
 <a name="l00002"></a>00002 <span class="preprocessor"></span><span class="preprocessor">#define INTERFACE_VIEW_H</span>
 <a name="l00003"></a>00003 <span class="preprocessor"></span>
-<a name="l00004"></a>00004 
-<a name="l00005"></a>00005 
-<a name="l00006"></a>00006 <span class="preprocessor">#include &lt;QWidget&gt;</span>
-<a name="l00007"></a>00007 <span class="preprocessor">#include &lt;QList&gt;</span>
-<a name="l00008"></a>00008 <span class="preprocessor">#include &lt;QSignalMapper&gt;</span>
-<a name="l00009"></a>00009 <span class="preprocessor">#include &lt;QAbstractButton&gt;</span>
-<a name="l00010"></a>00010 <span class="preprocessor">#include &lt;QBoxLayout&gt;</span>
-<a name="l00011"></a>00011 <span class="preprocessor">#include &lt;QHBoxLayout&gt;</span>
-<a name="l00012"></a>00012 <span class="preprocessor">#include &lt;QVBoxLayout&gt;</span>
-<a name="l00013"></a>00013 <span class="preprocessor">#include &lt;QTextDocument&gt;</span>
-<a name="l00014"></a>00014 <span class="preprocessor">#include &lt;QString&gt;</span>
+<a name="l00004"></a>00004 <span class="preprocessor">#include &lt;QWidget&gt;</span>
+<a name="l00005"></a>00005 <span class="preprocessor">#include &lt;QList&gt;</span>
+<a name="l00006"></a>00006 <span class="preprocessor">#include &lt;QSignalMapper&gt;</span>
+<a name="l00007"></a>00007 <span class="preprocessor">#include &lt;QAbstractButton&gt;</span>
+<a name="l00008"></a>00008 <span class="preprocessor">#include &lt;QBoxLayout&gt;</span>
+<a name="l00009"></a>00009 <span class="preprocessor">#include &lt;QHBoxLayout&gt;</span>
+<a name="l00010"></a>00010 <span class="preprocessor">#include &lt;QVBoxLayout&gt;</span>
+<a name="l00011"></a>00011 <span class="preprocessor">#include &lt;QTextDocument&gt;</span>
+<a name="l00012"></a>00012 <span class="preprocessor">#include &lt;QString&gt;</span>
+<a name="l00013"></a>00013 
 <a name="l00015"></a>00015 
-<a name="l00017"></a>00017 
-<a name="l00027"></a><a class="code" href="classinterface__view.html">00027</a> <span class="keyword">class </span><a class="code" href="classinterface__view.html" title="A single view for the terminal interface.">interface_view</a> : <span class="keyword">public</span> QWidget
-<a name="l00028"></a>00028 {
-<a name="l00029"></a>00029         Q_OBJECT
-<a name="l00030"></a>00030 
-<a name="l00031"></a>00031         QList&lt;QAbstractButton*&gt; * buttons;    
-<a name="l00032"></a>00032         QList&lt;QWidget *&gt;        * stuff;      
-<a name="l00033"></a>00033         QSignalMapper           * signal_mapper; 
-<a name="l00034"></a>00034         QHBoxLayout                             * main_layout;  
-<a name="l00035"></a>00035         QList&lt;QVBoxLayout *&gt;    * vert_layouts; 
-<a name="l00036"></a>00036         QTextDocument                   * helpDoc;              
-<a name="l00037"></a>00037         QString                                 * name;
-<a name="l00038"></a>00038         <span class="keywordtype">int</span> last_choice;        
-<a name="l00039"></a>00039         <span class="keywordtype">int</span> btn_number;         
+<a name="l00024"></a><a class="code" href="classinterface__view.html">00024</a> <span class="keyword">class </span><a class="code" href="classinterface__view.html" title="A single view for the terminal interface.">interface_view</a> : <span class="keyword">public</span> QWidget
+<a name="l00025"></a>00025 {
+<a name="l00026"></a>00026         Q_OBJECT
+<a name="l00027"></a>00027 
+<a name="l00028"></a>00028         QList&lt;QAbstractButton*&gt; * buttons;    
+<a name="l00029"></a>00029         QList&lt;QWidget *&gt;        * stuff;      
+<a name="l00030"></a>00030         QSignalMapper           * signal_mapper; 
+<a name="l00031"></a>00031         QHBoxLayout                             * main_layout;  
+<a name="l00032"></a>00032         QList&lt;QVBoxLayout *&gt;    * vert_layouts; 
+<a name="l00033"></a>00033         QTextDocument                   * helpDoc;              
+<a name="l00034"></a>00034         QString                                 * name;
+<a name="l00035"></a>00035         <span class="keywordtype">int</span> last_choice;        
+<a name="l00036"></a>00036         <span class="keywordtype">int</span> btn_number;         
+<a name="l00037"></a>00037 
+<a name="l00038"></a>00038 <span class="keyword">public</span>:
+<a name="l00039"></a>00039         <span class="keywordtype">int</span> <a class="code" href="classinterface__view.html#6c9506e36ddc99d55082b465e7fe89e7" title="get the last button that was pressed on that view">getLastChoice</a>();    
 <a name="l00040"></a>00040 
-<a name="l00041"></a>00041 <span class="keyword">public</span>:
-<a name="l00042"></a>00042         <span class="keywordtype">int</span> <a class="code" href="classinterface__view.html#6c9506e36ddc99d55082b465e7fe89e7" title="get the last button that was pressed on that view">getLastChoice</a>();    
-<a name="l00043"></a>00043 
-<a name="l00044"></a>00044         <a class="code" href="classinterface__view.html#20cb4b527c4a0de449526e588e40498a" title="default constructor">interface_view</a>();               
-<a name="l00045"></a>00045         <a class="code" href="classinterface__view.html#20cb4b527c4a0de449526e588e40498a" title="default constructor">interface_view</a>(<span class="keyword">const</span> QString&amp; ); 
-<a name="l00046"></a>00046         <a class="code" href="classinterface__view.html#20cb4b527c4a0de449526e588e40498a" title="default constructor">interface_view</a>(<span class="keyword">const</span> QList&lt;QVBoxLayout *&gt;); 
-<a name="l00047"></a>00047 
-<a name="l00048"></a>00048         <span class="keywordtype">int</span> <a class="code" href="classinterface__view.html#29c11da47c599da473ff2fe098454e00" title="add button to the view, vlayout -- the number of vert layout to add button to">addButton</a>(QAbstractButton *, <span class="keywordtype">int</span> vlayout=0);        
+<a name="l00041"></a>00041         <a class="code" href="classinterface__view.html#20cb4b527c4a0de449526e588e40498a" title="default constructor">interface_view</a>();               
+<a name="l00042"></a>00042         <a class="code" href="classinterface__view.html#20cb4b527c4a0de449526e588e40498a" title="default constructor">interface_view</a>(<span class="keyword">const</span> QString&amp; ); 
+<a name="l00043"></a>00043         <a class="code" href="classinterface__view.html#20cb4b527c4a0de449526e588e40498a" title="default constructor">interface_view</a>(<span class="keyword">const</span> QList&lt;QVBoxLayout *&gt;); 
+<a name="l00044"></a>00044 
+<a name="l00045"></a>00045         <span class="keywordtype">int</span> <a class="code" href="classinterface__view.html#29c11da47c599da473ff2fe098454e00" title="add button to the view, vlayout -- the number of vert layout to add button to">addButton</a>(QAbstractButton *, <span class="keywordtype">int</span> vlayout=0);        
+<a name="l00046"></a>00046         <span class="keywordtype">int</span> <a class="code" href="classinterface__view.html#236caa7c5f081fdbbbf44ab968da47fb" title="add some widget to layout, if it is not an instance of QAbstractButton">addWidget</a>(QWidget *, <span class="keywordtype">int</span> vlayout=0);        
+<a name="l00047"></a>00047         <span class="keywordtype">int</span> <a class="code" href="classinterface__view.html#a4cd169f585553ac5247533836767ac3" title="add stretch to the layout">addStretch</a>(<span class="keywordtype">int</span> vlayout); 
+<a name="l00048"></a>00048         <span class="keywordtype">int</span> addHtml(<span class="keyword">const</span> QWidget&amp;);
 <a name="l00049"></a>00049 
-<a name="l00050"></a>00050         <span class="keywordtype">int</span> addHtml(<span class="keyword">const</span> QWidget&amp;);
-<a name="l00051"></a>00051 
-<a name="l00052"></a>00052 <span class="keyword">public</span> slots:
-<a name="l00053"></a>00053         <span class="keywordtype">void</span> <a class="code" href="classinterface__view.html#2cbfdb9bdf8d47fd9a381df0bc67f434" title="some button is pressed on the interface">buttonPressed</a>(<span class="keywordtype">int</span>);       
-<a name="l00054"></a>00054 signals:
-<a name="l00055"></a>00055         <span class="keywordtype">void</span> <a class="code" href="classinterface__view.html#3539e6da0e6f70096c07ecb1ba27727a" title="signal to inform the manager, what has been chosen">choice</a>(<span class="keywordtype">int</span> cosen); 
-<a name="l00056"></a>00056 
+<a name="l00050"></a>00050 <span class="keyword">public</span> slots:
+<a name="l00051"></a>00051         <span class="keywordtype">void</span> <a class="code" href="classinterface__view.html#2cbfdb9bdf8d47fd9a381df0bc67f434" title="some button is pressed on the interface">buttonPressed</a>(<span class="keywordtype">int</span>);       
+<a name="l00052"></a>00052 signals:
+<a name="l00053"></a>00053         <span class="keywordtype">void</span> <a class="code" href="classinterface__view.html#3539e6da0e6f70096c07ecb1ba27727a" title="signal to inform the manager, what has been chosen">choice</a>(<span class="keywordtype">int</span> cosen); 
+<a name="l00054"></a>00054 
+<a name="l00055"></a>00055 
+<a name="l00056"></a>00056 };
 <a name="l00057"></a>00057 
-<a name="l00058"></a>00058 };
-<a name="l00059"></a>00059 
-<a name="l00060"></a>00060 <span class="preprocessor">#endif // INTERFACE_VIEW_H</span>
+<a name="l00058"></a>00058 <span class="preprocessor">#endif // INTERFACE_VIEW_H</span>
 </pre></div></div>
-<hr size="1"><address style="text-align: right;"><small>Generated on Tue Jul 21 20:09:06 2009 for host_interface by&nbsp;
+<hr size="1"><address style="text-align: right;"><small>Generated on Fri Jul 24 13:55:38 2009 for host_interface by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.8 </small></address>
 </body>

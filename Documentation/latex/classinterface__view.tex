@@ -51,6 +51,13 @@ int \hyperlink{classinterface__view_29c11da47c599da473ff2fe098454e00}{addButton}
 \label{classinterface__view_29c11da47c599da473ff2fe098454e00}
 
 \begin{CompactList}\small\item\em add button to the view, vlayout -- the number of vert layout to add button to \item\end{CompactList}\item 
+int \hyperlink{classinterface__view_236caa7c5f081fdbbbf44ab968da47fb}{addWidget} (QWidget $\ast$, int vlayout=0)
+\begin{CompactList}\small\item\em add some widget to layout, if it is not an instance of QAbstractButton \item\end{CompactList}\item 
+\hypertarget{classinterface__view_a4cd169f585553ac5247533836767ac3}{
+int \hyperlink{classinterface__view_a4cd169f585553ac5247533836767ac3}{addStretch} (int vlayout)}
+\label{classinterface__view_a4cd169f585553ac5247533836767ac3}
+
+\begin{CompactList}\small\item\em add stretch to the layout \item\end{CompactList}\item 
 \hypertarget{classinterface__view_019075445aa648d995d24806b2f6126e}{
 int \textbf{addHtml} (const QWidget \&)}
 \label{classinterface__view_019075445aa648d995d24806b2f6126e}
@@ -63,7 +70,20 @@ A single view for the terminal interface.
 
 This represents a single view in the terminal interface. It may contain buttons, html views, labels, and other children of QWidget. Basically there are three vertical layouts in the class, contained in one main horisontal layout 
 
+\subsection{Member Function Documentation}
+\hypertarget{classinterface__view_236caa7c5f081fdbbbf44ab968da47fb}{
+\index{interface\_\-view@{interface\_\-view}!addWidget@{addWidget}}
+\index{addWidget@{addWidget}!interface_view@{interface\_\-view}}
+\subsubsection[{addWidget}]{\setlength{\rightskip}{0pt plus 5cm}int interface\_\-view::addWidget (QWidget $\ast$ {\em wgt}, \/  int {\em vlayout} = {\tt 0})}}
+\label{classinterface__view_236caa7c5f081fdbbbf44ab968da47fb}
+
+
+add some widget to layout, if it is not an instance of QAbstractButton 
+
+Add some widget to the specified layout. Method knows nothing about a widget so it just stays in the layout. 
+
 The documentation for this class was generated from the following files:\begin{CompactItemize}
 \item 
 interface\_\-view.h\item 
-interface\_\-view.cpp\end{CompactItemize}
+interface\_\-view.cpp\item 
+moc\_\-interface\_\-view.cpp\end{CompactItemize}

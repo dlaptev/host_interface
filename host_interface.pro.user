@@ -65,7 +65,7 @@
     <value type="QString" >CONFIG_PROTECT=/usr/share/config /usr/kde/3.5/share/config /usr/kde/3.5/env /usr/kde/3.5/shutdown</value>
     <value type="QString" >CONFIG_PROTECT_MASK=/etc/gentoo-release /etc/sandbox.d /etc/udev/rules.d /etc/fonts/fonts.conf /etc/gconf /etc/terminfo /etc/ca-certificates.conf</value>
     <value type="QString" >CVS_RSH=ssh</value>
-    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Rj2sqORprA,guid=b03d8db9754c0385d487a1874a646f71</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-0UgV72FhrC,guid=3c74b5c7883bb2523e2afbf44a66023d</value>
     <value type="QString" >DESKTOP_STARTUP_ID=</value>
     <value type="QString" >DISPLAY=:0.0</value>
     <value type="QString" >EDITOR=/bin/nano</value>
@@ -94,7 +94,7 @@
     <value type="QString" >QTDIR=/usr</value>
     <value type="QString" >QT_PLUGIN_PATH=/root/.kde4/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
     <value type="QString" >SANE_CONFIG_DIR=/etc/sane.d</value>
-    <value type="QString" >SESSION_MANAGER=local/inquisitor:@/tmp/.ICE-unix/2652,unix/inquisitor:/tmp/.ICE-unix/2652</value>
+    <value type="QString" >SESSION_MANAGER=local/inquisitor:@/tmp/.ICE-unix/2739,unix/inquisitor:/tmp/.ICE-unix/2739</value>
     <value type="QString" >SHELL=/bin/bash</value>
     <value type="QString" >SHLVL=3</value>
     <value type="QString" >STRIGI_PLUGIN_PATH=/usr/lib/strigi:</value>
@@ -107,7 +107,7 @@
     <value type="QString" >XDG_CONFIG_DIRS=/etc/xdg</value>
     <value type="QString" >XDG_DATA_DIRS=/usr/share:/usr/local/share:/usr/share</value>
     <value type="QString" >XDG_MENU_PREFIX=kde-4.2-</value>
-    <value type="QString" >XDG_SESSION_COOKIE=d2d48318efec114823aa9f824a5e2e26-1248096110.965393-785358932</value>
+    <value type="QString" >XDG_SESSION_COOKIE=d2d48318efec114823aa9f824a5e2e26-1248199226.777335-1601070033</value>
     <value type="QString" >_=/usr/bin/kdeinit4</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList" >
@@ -131,7 +131,7 @@
     <value type="QString" >CONFIG_PROTECT=/usr/share/config /usr/kde/3.5/share/config /usr/kde/3.5/env /usr/kde/3.5/shutdown</value>
     <value type="QString" >CONFIG_PROTECT_MASK=/etc/gentoo-release /etc/sandbox.d /etc/udev/rules.d /etc/fonts/fonts.conf /etc/gconf /etc/terminfo /etc/ca-certificates.conf</value>
     <value type="QString" >CVS_RSH=ssh</value>
-    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Rj2sqORprA,guid=b03d8db9754c0385d487a1874a646f71</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-0UgV72FhrC,guid=3c74b5c7883bb2523e2afbf44a66023d</value>
     <value type="QString" >DESKTOP_STARTUP_ID=</value>
     <value type="QString" >DISPLAY=:0.0</value>
     <value type="QString" >EDITOR=/bin/nano</value>
@@ -160,7 +160,7 @@
     <value type="QString" >QTDIR=/usr</value>
     <value type="QString" >QT_PLUGIN_PATH=/root/.kde4/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
     <value type="QString" >SANE_CONFIG_DIR=/etc/sane.d</value>
-    <value type="QString" >SESSION_MANAGER=local/inquisitor:@/tmp/.ICE-unix/2652,unix/inquisitor:/tmp/.ICE-unix/2652</value>
+    <value type="QString" >SESSION_MANAGER=local/inquisitor:@/tmp/.ICE-unix/2739,unix/inquisitor:/tmp/.ICE-unix/2739</value>
     <value type="QString" >SHELL=/bin/bash</value>
     <value type="QString" >SHLVL=3</value>
     <value type="QString" >STRIGI_PLUGIN_PATH=/usr/lib/strigi:</value>
@@ -173,7 +173,7 @@
     <value type="QString" >XDG_CONFIG_DIRS=/etc/xdg</value>
     <value type="QString" >XDG_DATA_DIRS=/usr/share:/usr/local/share:/usr/share</value>
     <value type="QString" >XDG_MENU_PREFIX=kde-4.2-</value>
-    <value type="QString" >XDG_SESSION_COOKIE=d2d48318efec114823aa9f824a5e2e26-1248096110.965393-785358932</value>
+    <value type="QString" >XDG_SESSION_COOKIE=d2d48318efec114823aa9f824a5e2e26-1248199226.777335-1601070033</value>
     <value type="QString" >_=/usr/bin/kdeinit4</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList" >

@@ -6,6 +6,8 @@
 
 #include "qtsvgbutton.h"
 #include "interface_view.h"
+#include "second_view.h"
+
 /*!
  @mainpage Ticketland ticket selling system documentation
 
@@ -23,64 +25,67 @@ int main(int argc, char *argv[])
 {
 	QApplication app(argc, argv);
 
+	second_view *view2 = new second_view();
+	view2->show();
+
 
 	// QWidget * widget = new QWidget();
 
-	interface_view *view1 = new interface_view("view1");
+//	interface_view *view1 = new interface_view("view1");
+//	interface_view *view2 = new interface_view("view2");
+//
+//
+//	QtSvgButton * button = new QtSvgButton();
+//	QtSvgButton * button1 = new QtSvgButton();
+//	QtSvgButton * button2 = new QtSvgButton();
+//	QtSvgButton * button3 = new QtSvgButton();
+//	QtSvgButton * button4 = new QtSvgButton();
+//
+//	QHBoxLayout *hlayout1 = new QHBoxLayout();
+//	QHBoxLayout *hlayout2 = new QHBoxLayout();
+//	QVBoxLayout *layout = new QVBoxLayout();
+//	QVBoxLayout *layout2 = new QVBoxLayout();
+//
+//	button2->setSkin("btn_1_up");
+//	button2->setMinimumSize(1,1);
+//
+//
+//	button->setSkin("btn_1_down");
+//	button->setMinimumSize(1,1);
+//
+//
+//	button3->setSkin("Ticketland");
+//	button3->setMinimumSize(256,256);
+//	button3->setMaximumSize(256,256);
+//
+//	button1->setSkin("btn_1_mid");
+//	button1->setMinimumSize(1,1);
+//
+//	button4->setSkin("Ticketland");
+//	button4->setMinimumSize(1,1);
+//	//view1->addStretch(1);
+//	view1->addStretch(1);
+//	view1->addButton(button3,1);
+//	view1->addButton(button2,2);
+//	view1->addButton(button1,2);
+//	view1->addButton(button,2);
 
-
-
-	QtSvgButton * button = new QtSvgButton();
-	QtSvgButton * button2 = new QtSvgButton();
-	QtSvgButton * button3 = new QtSvgButton();
-	QHBoxLayout *hlayout1 = new QHBoxLayout();
-	QHBoxLayout *hlayout2 = new QHBoxLayout();
-	QVBoxLayout *layout = new QVBoxLayout();
-	QVBoxLayout *layout2 = new QVBoxLayout();
-
-
-	button->setSkin("Ticketland");
-	button->setMinimumSize(1,1);
-
-	button2->setSkin("Ticketland");
-	button2->setMinimumSize(1,1);
-
-	button3->setSkin("Ticketland");
-	button3->setMinimumSize(1,1);
-	button3->setMaximumSize(256,256);
-	button3->setMinimumSize(256,256);
-
-	view1->addButton(button3,1);
-	view1->addButton(button2,2);
-	view1->addButton(button,2);
-
-	view1->show();
-	/*
-	QSizePolicy SizePolicy(QSizePolicy::Preferred,QSizePolicy::Preferred);
-		//make widgets length depend on widget's height. thus we make the widget
-		//always square in the layout
-
-	SizePolicy.setHeightForWidth(true);
-	button3->setSizePolicy(SizePolicy);
-	//button3->setSizePolicy(RadioButton, RadioButton);
-	// add two buttons to vertical layout
-	layout->addWidget(button);
-	layout->addWidget(button2);
-
-	hlayout1->addLayout(layout);
-
-	hlayout2->addStretch(1);
-	hlayout2->addWidget(button3);
-
-	//layout2->addStretch(1);
-	layout2->addLayout(hlayout2);
-
-	hlayout1->addLayout(layout2);
-	widget->setLayout(hlayout1);
-
-	widget->show();
-	//button->show();
-	*/
+//	view1->addButton(button3,4,1,1,1);
+//	view1->addButton(button2,1,2,1,4);
+//	view1->addButton(button1,2,2,1,4);
+//	view1->addButton(button,3,2,1,4);
+//
+//	for (int i=1;i<6;i++)
+//		view1->setColumnStretch(i,1);
+//
+//	for (int i=1;i<5;i++)
+//		view1->setRowStretch(i,1);
+//
+//	//view1->setColumnStretch(5,1);
+//	//view1->setColumnStretch(6,1);
+//
+//	view1->show();
+//	/*
 
 
 	return app.exec();

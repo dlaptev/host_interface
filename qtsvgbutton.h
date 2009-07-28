@@ -3,12 +3,19 @@
 
 #include <QAbstractButton>
 #include <QPicture>
+
 class QSvgRenderer;
 
+//! Button with svg skin to make things nice and scalable
+/*!
+ * The button with SVG skin.
+ * Code taken from  qt embedded widgets
+ * demo
+ */
 class QtSvgButton : public QAbstractButton
 {
 Q_OBJECT
-    Q_PROPERTY(QString skin READ skin WRITE setSkin)
+	Q_PROPERTY(QString skin READ skin WRITE setSkin)
 public:
 	explicit QtSvgButton(QWidget * parent = 0);
 	QtSvgButton (const QtSvgButton &);
@@ -35,7 +42,7 @@ private:
 	QString m_skin;
 
 protected:
-    virtual void paintEvent(QPaintEvent* event);
+	virtual void paintEvent(QPaintEvent* event);
 };
 
 #endif // QTSVGBUTTON_H

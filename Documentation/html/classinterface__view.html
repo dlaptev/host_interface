@@ -61,6 +61,13 @@ int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#29c11da47c599da473ff2fe098454e00">addButton</a> (QAbstractButton *, int vlayout=0)</td></tr>
 
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">add button to the view, vlayout -- the number of vert layout to add button to <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#236caa7c5f081fdbbbf44ab968da47fb">addWidget</a> (QWidget *, int vlayout=0)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">add some widget to layout, if it is not an instance of QAbstractButton  <a href="#236caa7c5f081fdbbbf44ab968da47fb"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="a4cd169f585553ac5247533836767ac3"></a><!-- doxytag: member="interface_view::addStretch" ref="a4cd169f585553ac5247533836767ac3" args="(int vlayout)" -->
+int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#a4cd169f585553ac5247533836767ac3">addStretch</a> (int vlayout)</td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">add stretch to the layout <br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="019075445aa648d995d24806b2f6126e"></a><!-- doxytag: member="interface_view::addHtml" ref="019075445aa648d995d24806b2f6126e" args="(const QWidget &amp;)" -->
 int&nbsp;</td><td class="memItemRight" valign="bottom"><b>addHtml</b> (const QWidget &amp;)</td></tr>
 
@@ -68,10 +75,42 @@ int&nbsp;</td><td class="memItemRight" valign="bottom"><b>addHtml</b> (const QWi
 <hr><a name="_details"></a><h2>Detailed Description</h2>
 A single view for the terminal interface. 
 <p>
-This represents a single view in the terminal interface. It may contain buttons, html views, labels, and other children of QWidget. Basically there are three vertical layouts in the class, contained in one main horisontal layout <hr>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="interface__view_8h-source.html">interface_view.h</a><li>interface_view.cpp</ul>
+This represents a single view in the terminal interface. It may contain buttons, html views, labels, and other children of QWidget. Basically there are three vertical layouts in the class, contained in one main horisontal layout <hr><h2>Member Function Documentation</h2>
+<a class="anchor" name="236caa7c5f081fdbbbf44ab968da47fb"></a><!-- doxytag: member="interface_view::addWidget" ref="236caa7c5f081fdbbbf44ab968da47fb" args="(QWidget *, int vlayout=0)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int interface_view::addWidget           </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&nbsp;</td>
+          <td class="paramname"> <em>wgt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>vlayout</em> = <code>0</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
 </div>
-<hr size="1"><address style="text-align: right;"><small>Generated on Tue Jul 21 20:09:06 2009 for host_interface by&nbsp;
+<div class="memdoc">
+
+<p>
+add some widget to layout, if it is not an instance of QAbstractButton 
+<p>
+Add some widget to the specified layout. Method knows nothing about a widget so it just stays in the layout. 
+</div>
+</div><p>
+<hr>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="interface__view_8h-source.html">interface_view.h</a><li>interface_view.cpp<li>moc_interface_view.cpp</ul>
+</div>
+<hr size="1"><address style="text-align: right;"><small>Generated on Fri Jul 24 13:55:38 2009 for host_interface by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.8 </small></address>
 </body>
