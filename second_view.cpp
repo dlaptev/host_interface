@@ -8,17 +8,28 @@
 
 second_view::second_view()
 {
+	price = new QLabel(this);
+	ticket_number = new QLabel(this);
+
+	max_tickets = 14;
+	tickets_number = 1;
+	tickets_price = 100; //parent->getTicketPrice(1);
+
+	QString temp;
+	ticket_number->setText("Number of tickets chosen: " +
+						   temp.setNum(tickets_number));
+
 	next = new QtSvgButton(this);
 	back = new QtSvgButton(this);
 	plus = new QtSvgButton(this);
 	minus = new QtSvgButton(this);
 	info = new QtSvgButton(this);
 
-	next->setSkin("Ticketland");
-	back->setSkin("Ticketland");
-	plus->setSkin("Ticketland");
-	minus->setSkin("Ticketland");
-	info->setSkin("Ticketland");
+	next->setSkin("fwd_btn");
+	back->setSkin("back_btn");
+	plus->setSkin("plus_btn");
+	minus->setSkin("minus_btn");
+	info->setSkin("info_btn");
 
 	buttons->push_back(back);
 	buttons->push_back(minus);
@@ -31,6 +42,9 @@ second_view::second_view()
 	grdLayout->addWidget(minus,1,3,1,1);
 	grdLayout->addWidget(plus,1,4,1,1);
 	grdLayout->addWidget(next,2,6,1,1);
+
+	grdLayout->addWidget(price,3,2,1,3);
+	grdLayout->addWidget(ticket_number,4,2,1,3);
 
 	for (int i=1;i<7;i++) {
 		grdLayout->setColumnStretch(i,1);
@@ -60,11 +74,38 @@ second_view::second_view()
 
 void second_view::buttonPressed(int num)
 {
-	QString str;
-	str.setNum(num+13);
-	 QMessageBox msgBox;
-	msgBox.setText(str);
-	msgBox.exec();
+	QString tmp;
+
+	switch (num) {
+		//back
+		case 0:
+		case 1:
+			break;
+		//minus
+		case 2:
+			if (tickets_number>1)
+				tickets_number--;
+			ticket_number->setText("Number of tickets chosen: " +
+								   tmp.setNum(tickets_number));
+			break;
+		//plus
+		case 3:
+			if (tickets_number < 14)
+				tickets_number++;
+			ticket_number->setText("Number of tickets chosen: " +
+								   tmp.setNum(tickets_number));
+
+			break;
+		//next
+		case 4:
+			break;
+		//info
+		case 5:
+			break;
+		default:
+			break;
+	}
+
 }
 
 void second_view::pressed()

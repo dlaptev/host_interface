@@ -14,7 +14,7 @@
    id="svg2383"
    sodipodi:version="0.32"
    inkscape:version="0.46"
-   sodipodi:docname="pressed.svg"
+   sodipodi:docname="hovered.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0">
   <defs
@@ -150,22 +150,9 @@
        sodipodi:ry="417.14285"
        d="M 80,309.50504 A 421.42856,417.14285 0 1 1 -762.85712,309.50504 A 421.42856,417.14285 0 1 1 80,309.50504 z"
        transform="matrix(0.6610171,0,0,0.6678084,-46.372505,-2.6234152)" />
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot3299"
-       style="font-size:283.87817383px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Utopia;-inkscape-font-specification:Utopia Italic"
-       transform="matrix(3.1394195,0,0,1.8940893,-1066.8107,-306.49085)"><flowRegion
-         id="flowRegion3301"><rect
-           id="rect3303"
-           width="520"
-           height="697.14288"
-           x="197.14285"
-           y="95.219322"
-           style="font-size:283.87817383px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Utopia;-inkscape-font-specification:Utopia Italic" /></flowRegion><flowPara
-         id="flowPara3305"
-         style="font-size:283.87817383px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Italic">i</flowPara></flowRoot>    <path
+    <path
        style="opacity:1;fill:#ffffff;fill-opacity:0.17316021;stroke:none;stroke-width:27.41173744;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -257.80664,493.39653 C -406.39341,484.8251 -362.23516,475.36171 -435.0923,436.27598 C -459.70193,423.07363 -442.26932,449.71784 -504.37066,372.30277 C -440.89507,318.63322 -308.67892,260.59585 -243.95908,243.41885 C -179.47921,226.30554 -96.48465,222.85948 12.345243,227.5617 C -3.61988,386.30507 -125.26804,493.39653 -257.80664,493.39653 z"
+       d="M -273.52092,-88.032044 C -432.10769,-88.032044 -560.80659,36.790285 -560.80659,190.5617 C -560.80659,218.48903 -556.55503,245.43213 -548.65637,270.8742 C -479.4665,230.0618 -352.96463,173.45299 -288.24479,156.27599 C -223.76492,139.16268 -90.770365,122.85948 3.7738146,117.5617 C -29.334165,-0.8377952 -140.98233,-88.032044 -273.52092,-88.032044 z"
        id="path3283"
        sodipodi:nodetypes="cscscc" />
     <flowRoot
@@ -178,5 +165,19 @@
            height="340"
            x="177.14285"
            y="18.076468" /></flowRegion><flowPara
-         id="flowPara3313" /></flowRoot>  </g>
+         id="flowPara3313" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:692.24035645px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Utopia;-inkscape-font-specification:Utopia Italic"
+       x="-375.60715"
+       y="508.79727"
+       id="text2401"
+       sodipodi:linespacing="125%"
+       transform="scale(1.2874324,0.7767398)"><tspan
+         sodipodi:role="line"
+         id="tspan2403"><tspan
+           x="-375.60715"
+           y="508.79727"
+           style="line-height:125%;fill:#ffffff;font-family:Utopia;-inkscape-font-specification:Utopia Italic"
+           id="tspan2405">i</tspan></tspan></text>
+  </g>
 </svg>

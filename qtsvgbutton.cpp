@@ -10,8 +10,18 @@ QtSvgButton::QtSvgButton(QWidget * parent)
 {
 	// trigger repaint on enter and leave event
 	setAttribute(Qt::WA_Hover, true);
+	//! make a widget square
+	QSizePolicy policy(QSizePolicy::Preferred,QSizePolicy::Preferred);
+	policy.setHeightForWidth(true);
+	setSizePolicy(policy);
 }
-
+int QtSvgButton::heightForWidth(int w) const
+{
+	/*
+	 * make button sqare
+	 */
+	return w;
+}
 QtSvgButton::QtSvgButton(const QtSvgButton& btn)
 {
 	this->m_defaultSize = btn.m_defaultSize;

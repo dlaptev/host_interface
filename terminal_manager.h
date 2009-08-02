@@ -13,8 +13,11 @@
 
 class terminal_manager : public QObject
 {
+
 public:
 	terminal_manager();
+	int getTicketPrice(int);
+
 };
 
 #endif // TERMINAL_MANAGER_H

@@ -25,7 +25,7 @@ public:
 	QString skin() const;
 
 	virtual QSize sizeHint() const;
-
+	virtual int heightForWidth(int) const;
 private:
 	QRect buttonRect() const;
 
