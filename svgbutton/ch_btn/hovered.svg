@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="128"
+   id="svg3372"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="ch_normal.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs3374">
+    <linearGradient
+       id="linearGradient4511">
+      <stop
+         style="stop-color:#8e8e8e;stop-opacity:0.556701;"
+         offset="0"
+         id="stop4513" />
+      <stop
+         style="stop-color:#323232;stop-opacity:0.54509807;"
+         offset="1"
+         id="stop4515" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3380" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4511"
+       id="linearGradient4517"
+       x1="-370.0863"
+       y1="-51.734562"
+       x2="-369.34534"
+       y2="465.83405"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.7633588,0,0,0.2442748,-2014.2011,665.37595)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4511"
+       id="linearGradient4526"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.0792792,0,0,2.4105249,91.971294,-1039.1925)"
+       x1="-381.83521"
+       y1="191.84464"
+       x2="-381.83521"
+       y2="-22.054701" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#ffffff"
+     borderopacity="0.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="0"
+     inkscape:zoom="1.7456699"
+     inkscape:cx="186.02186"
+     inkscape:cy="22.085649"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="842"
+     inkscape:window-x="-5"
+     inkscape:window-y="-3" />
+  <metadata
+     id="metadata3377">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(2505.6799,-651.16748)">
+    <rect
+       style="opacity:0.97560975;fill:#5c5cff;fill-opacity:1;stroke:none"
+       id="rect3382"
+       width="400"
+       height="128"
+       x="-2505.6799"
+       y="651.16748"
+       ry="13.958561" />
+    <rect
+       style="opacity:0.97560975;fill:url(#linearGradient4517);fill-opacity:1;stroke:none"
+       id="rect4509"
+       width="400"
+       height="128"
+       x="-2505.6799"
+       y="651.16748"
+       ry="13.958561" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2391"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"><flowRegion
+         id="flowRegion2393"><rect
+           id="rect2395"
+           width="309.48166"
+           height="149.27939"
+           x="120.1517"
+           y="108.93047" /></flowRegion><flowPara
+         id="flowPara2397" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2572"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"><flowRegion
+         id="flowRegion2574"><rect
+           id="rect2576"
+           width="372.25317"
+           height="106.12658"
+           x="-1964.962"
+           y="722.88605" /></flowRegion><flowPara
+         id="flowPara2578" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="-2387.832"
+       y="719.10425"
+       id="text3188"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3190"
+         x="-2387.832"
+         y="719.10425"
+         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:0.98290597;font-family:Droid Serif;-inkscape-font-specification:Droid Serif">Детский билет. (50 р.)</tspan></text>
+  </g>
+</svg>
