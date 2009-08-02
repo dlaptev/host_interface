@@ -9,19 +9,26 @@
 #include <QLabel>
 #include <QObject>
 
+//! The second view
+/*!
+ * The second view of terminal interface
+ * allows a user to choose the number of tickets.
+ * Displays the number of tickets chosen and overall price
+ */
+
 class second_view : public interface_view
 {
 	Q_OBJECT
 
-	QLabel	*price;
-	QLabel	*ticket_number;
+	QLabel	*price;			//!< Label to display the overall price
+	QLabel	*ticket_number;	//!< Label to display the number of tickets chosen
 
 
-	QtSvgButton * back;
-	QtSvgButton * next;
-	QtSvgButton * plus;
-	QtSvgButton * minus;
-	QtSvgButton * info;
+	QtSvgButton * back;		//!< Button to go back to view 1
+	QtSvgButton * next;		//!< Button to go to the next view
+	QtSvgButton * plus;		//!< Button to choose one ticket more
+	QtSvgButton * minus;	//!< Buttom to reduce the number of tickets chosen
+	QtSvgButton * info;		//!< Show the information
 
 	int max_tickets;		//!< maximum number of tickets
 	int tickets_number;		//!< number of tickets chosen

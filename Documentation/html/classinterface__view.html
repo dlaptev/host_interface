@@ -16,6 +16,7 @@
   <div class="tabs">
     <ul>
       <li><a href="annotated.html"><span>Class&nbsp;List</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&nbsp;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&nbsp;Members</span></a></li>
     </ul>
   </div>
@@ -26,6 +27,16 @@
 <p>
 <code>#include &lt;<a class="el" href="interface__view_8h-source.html">interface_view.h</a>&gt;</code>
 <p>
+<div class="dynheader">
+Inheritance diagram for interface_view:</div>
+<div class="dynsection">
+
+<p><center><img src="classinterface__view.png" usemap="#interface_view_map" border="0" alt=""></center>
+<map name="interface_view_map">
+<area href="classfirst__view.html" alt="first_view" shape="rect" coords="0,56,95,80">
+<area href="classsecond__view.html" alt="second_view" shape="rect" coords="105,56,200,80">
+</map>
+</div>
 
 <p>
 <a href="classinterface__view-members.html">List of all members.</a><table border="0" cellpadding="0" cellspacing="0">
@@ -36,8 +47,8 @@ void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">some button is pressed on the interface <br></td></tr>
 <tr><td colspan="2"><br><h2>Signals</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="3539e6da0e6f70096c07ecb1ba27727a"></a><!-- doxytag: member="interface_view::choice" ref="3539e6da0e6f70096c07ecb1ba27727a" args="(int cosen)" -->
-void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#3539e6da0e6f70096c07ecb1ba27727a">choice</a> (int cosen)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="0ce60b1adae303b356ac4c1835c40ca4"></a><!-- doxytag: member="interface_view::choice" ref="0ce60b1adae303b356ac4c1835c40ca4" args="(int chosen)" -->
+void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#0ce60b1adae303b356ac4c1835c40ca4">choice</a> (int chosen)</td></tr>
 
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">signal to inform the manager, what has been chosen <br></td></tr>
 <tr><td colspan="2"><br><h2>Public Member Functions</h2></td></tr>
@@ -53,30 +64,105 @@ int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#3dc8b90c1b4ce4a59151ad7464e8fbb8">interface_view</a> (const QString &amp;)</td></tr>
 
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">constructor with the name specified <br></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="5df31c60fdf8e3f87143493a82b8357d"></a><!-- doxytag: member="interface_view::interface_view" ref="5df31c60fdf8e3f87143493a82b8357d" args="(const QList&lt; QVBoxLayout * &gt;)" -->
-&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#5df31c60fdf8e3f87143493a82b8357d">interface_view</a> (const QList&lt; QVBoxLayout * &gt;)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="ac97156f648f7c66105da7c181974fae"></a><!-- doxytag: member="interface_view::interface_view" ref="ac97156f648f7c66105da7c181974fae" args="(int)" -->
+&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#ac97156f648f7c66105da7c181974fae">interface_view</a> (int)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">constructor to build custom Vertical Layouts <br></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="29c11da47c599da473ff2fe098454e00"></a><!-- doxytag: member="interface_view::addButton" ref="29c11da47c599da473ff2fe098454e00" args="(QAbstractButton *, int vlayout=0)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#29c11da47c599da473ff2fe098454e00">addButton</a> (QAbstractButton *, int vlayout=0)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">constructor to build custom number of vertical Layouts <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#55fe3b79d276a6a477c2e1e5058cf52c">addWidget</a> (QWidget *, int, int, int, int, Qt::Alignment=0)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">add button to the view, vlayout -- the number of vert layout to add button to <br></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#236caa7c5f081fdbbbf44ab968da47fb">addWidget</a> (QWidget *, int vlayout=0)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">add widget (see QGridLayout)  <a href="#55fe3b79d276a6a477c2e1e5058cf52c"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="93faca1ba9dc78bd7e935b0fbbffaea8"></a><!-- doxytag: member="interface_view::addButton" ref="93faca1ba9dc78bd7e935b0fbbffaea8" args="(QAbstractButton *, int, int, int, int, Qt::Alignment=0)" -->
+int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#93faca1ba9dc78bd7e935b0fbbffaea8">addButton</a> (QAbstractButton *, int, int, int, int, Qt::Alignment=0)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">add some widget to layout, if it is not an instance of QAbstractButton  <a href="#236caa7c5f081fdbbbf44ab968da47fb"></a><br></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">add button (see QGridLayout) <br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="a4cd169f585553ac5247533836767ac3"></a><!-- doxytag: member="interface_view::addStretch" ref="a4cd169f585553ac5247533836767ac3" args="(int vlayout)" -->
 int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#a4cd169f585553ac5247533836767ac3">addStretch</a> (int vlayout)</td></tr>
 
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">add stretch to the layout <br></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="019075445aa648d995d24806b2f6126e"></a><!-- doxytag: member="interface_view::addHtml" ref="019075445aa648d995d24806b2f6126e" args="(const QWidget &amp;)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>addHtml</b> (const QWidget &amp;)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="c45f295ccb73f4060a5905b2fbb96594"></a><!-- doxytag: member="interface_view::setColumnStretch" ref="c45f295ccb73f4060a5905b2fbb96594" args="(int, int)" -->
+int&nbsp;</td><td class="memItemRight" valign="bottom"><b>setColumnStretch</b> (int, int)</td></tr>
 
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="2f66ec1f5d5098cc6d6f663dca4472f0"></a><!-- doxytag: member="interface_view::setRowStretch" ref="2f66ec1f5d5098cc6d6f663dca4472f0" args="(int, int)" -->
+int&nbsp;</td><td class="memItemRight" valign="bottom"><b>setRowStretch</b> (int, int)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="0d97a28af880209d9c5efb0d93557cc4"></a><!-- doxytag: member="interface_view::columnStretch" ref="0d97a28af880209d9c5efb0d93557cc4" args="(int)" -->
+int&nbsp;</td><td class="memItemRight" valign="bottom"><b>columnStretch</b> (int)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="384bbb95ef2eaa82a30c5de7d136c9b7"></a><!-- doxytag: member="interface_view::rowStretch" ref="384bbb95ef2eaa82a30c5de7d136c9b7" args="(int)" -->
+int&nbsp;</td><td class="memItemRight" valign="bottom"><b>rowStretch</b> (int)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="59d8a255424d7bd4ebd845eba55bccb4"></a><!-- doxytag: member="interface_view::setNextBtn" ref="59d8a255424d7bd4ebd845eba55bccb4" args="(int)" -->
+void&nbsp;</td><td class="memItemRight" valign="bottom"><b>setNextBtn</b> (int)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="2c553d635fa81f2997fdce519fd5f7b5"></a><!-- doxytag: member="interface_view::getNextBtn" ref="2c553d635fa81f2997fdce519fd5f7b5" args="() const " -->
+int&nbsp;</td><td class="memItemRight" valign="bottom"><b>getNextBtn</b> () const </td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="7a5331052a82b2e721671f9dc1e26512"></a><!-- doxytag: member="interface_view::setPrevBtn" ref="7a5331052a82b2e721671f9dc1e26512" args="(int)" -->
+void&nbsp;</td><td class="memItemRight" valign="bottom"><b>setPrevBtn</b> (int)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="aee86cad7455059c5220f4d970fc590a"></a><!-- doxytag: member="interface_view::getPrevBtn" ref="aee86cad7455059c5220f4d970fc590a" args="() const " -->
+int&nbsp;</td><td class="memItemRight" valign="bottom"><b>getPrevBtn</b> () const </td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="0bef899e9ade91447c5f51e8869f0910"></a><!-- doxytag: member="interface_view::getName" ref="0bef899e9ade91447c5f51e8869f0910" args="() const " -->
+QString&nbsp;</td><td class="memItemRight" valign="bottom"><b>getName</b> () const </td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="761dc6c1fbb26b2ef976c4c96b1eeaca"></a><!-- doxytag: member="interface_view::setName" ref="761dc6c1fbb26b2ef976c4c96b1eeaca" args="(const QString &amp;)" -->
+void&nbsp;</td><td class="memItemRight" valign="bottom"><b>setName</b> (const QString &amp;)</td></tr>
+
+<tr><td colspan="2"><br><h2>Protected Attributes</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="f1e0c88fdecf4afb1df05258d6f350b8"></a><!-- doxytag: member="interface_view::buttons" ref="f1e0c88fdecf4afb1df05258d6f350b8" args="" -->
+QList&lt; QAbstractButton * &gt; *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#f1e0c88fdecf4afb1df05258d6f350b8">buttons</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">holds buttons <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="3a707948a6e7811d73f5e0a73d760e00"></a><!-- doxytag: member="interface_view::stuff" ref="3a707948a6e7811d73f5e0a73d760e00" args="" -->
+QList&lt; QWidget * &gt; *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#3a707948a6e7811d73f5e0a73d760e00">stuff</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">holds other stuff <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="57574d4f42c441ea5e13bea130338bc8"></a><!-- doxytag: member="interface_view::signal_mapper" ref="57574d4f42c441ea5e13bea130338bc8" args="" -->
+QSignalMapper *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#57574d4f42c441ea5e13bea130338bc8">signal_mapper</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">to map the signals <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="61745ba0fc9cfd0de1388437ef61f3bd"></a><!-- doxytag: member="interface_view::main_layout" ref="61745ba0fc9cfd0de1388437ef61f3bd" args="" -->
+QHBoxLayout *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#61745ba0fc9cfd0de1388437ef61f3bd">main_layout</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">the main layout <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="0bf68665628d3fa3be39c3558b7bcfee"></a><!-- doxytag: member="interface_view::vert_layouts" ref="0bf68665628d3fa3be39c3558b7bcfee" args="" -->
+QList&lt; QVBoxLayout * &gt; *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#0bf68665628d3fa3be39c3558b7bcfee">vert_layouts</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">vertical layouts <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="067249953209457785a5c60f72658454"></a><!-- doxytag: member="interface_view::helpDoc" ref="067249953209457785a5c60f72658454" args="" -->
+QTextDocument *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#067249953209457785a5c60f72658454">helpDoc</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">may hold help in html format <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="caa36380bb9690e725dfff36c86ea6b3"></a><!-- doxytag: member="interface_view::name" ref="caa36380bb9690e725dfff36c86ea6b3" args="" -->
+QString *&nbsp;</td><td class="memItemRight" valign="bottom"><b>name</b></td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="6e37fda00c60793f253f9c0382a212ba"></a><!-- doxytag: member="interface_view::grdLayout" ref="6e37fda00c60793f253f9c0382a212ba" args="" -->
+QGridLayout *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#6e37fda00c60793f253f9c0382a212ba">grdLayout</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">grid layout for the view <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="42b38fa9abe0847a6c90612bbc91172d"></a><!-- doxytag: member="interface_view::last_choice" ref="42b38fa9abe0847a6c90612bbc91172d" args="" -->
+int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#42b38fa9abe0847a6c90612bbc91172d">last_choice</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">the button that was pressed last <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="5fc137482a8945bd8dc310357247a2bb"></a><!-- doxytag: member="interface_view::btn_number" ref="5fc137482a8945bd8dc310357247a2bb" args="" -->
+int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#5fc137482a8945bd8dc310357247a2bb">btn_number</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">the number of buttons; == buttons.size(); <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="587114c739e5bfe63f79daa4653fb91d"></a><!-- doxytag: member="interface_view::nextBtn" ref="587114c739e5bfe63f79daa4653fb91d" args="" -->
+int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#587114c739e5bfe63f79daa4653fb91d">nextBtn</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">number of the button that tells to go to next view <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="6f99c38583db8aaf39bd52034ad56b50"></a><!-- doxytag: member="interface_view::prevBtn" ref="6f99c38583db8aaf39bd52034ad56b50" args="" -->
+int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterface__view.html#6f99c38583db8aaf39bd52034ad56b50">prevBtn</a></td></tr>
+
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">number of the button that tells to go to prev view <br></td></tr>
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
 A single view for the terminal interface. 
 <p>
-This represents a single view in the terminal interface. It may contain buttons, html views, labels, and other children of QWidget. Basically there are three vertical layouts in the class, contained in one main horisontal layout <hr><h2>Member Function Documentation</h2>
-<a class="anchor" name="236caa7c5f081fdbbbf44ab968da47fb"></a><!-- doxytag: member="interface_view::addWidget" ref="236caa7c5f081fdbbbf44ab968da47fb" args="(QWidget *, int vlayout=0)" -->
+This represents a single view in the terminal interface. It may contain buttons, html views, labels, and other children of QWidget. Basically there are three vertical layouts in the class, contained in one main horisontal layout. However, the view may be created with custom layouts in it. This can be done by passing a list of pointers to vertical layouts to the constructor. <hr><h2>Member Function Documentation</h2>
+<a class="anchor" name="55fe3b79d276a6a477c2e1e5058cf52c"></a><!-- doxytag: member="interface_view::addWidget" ref="55fe3b79d276a6a477c2e1e5058cf52c" args="(QWidget *, int, int, int, int, Qt::Alignment=0)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -90,7 +176,31 @@ This represents a single view in the terminal interface. It may contain buttons,
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&nbsp;</td>
-          <td class="paramname"> <em>vlayout</em> = <code>0</code></td><td>&nbsp;</td>
+          <td class="paramname"> <em>fromRow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>fromColumn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>rowSpan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>columnSpan</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Qt::Alignment&nbsp;</td>
+          <td class="paramname"> <em>alignment</em> = <code>0</code></td><td>&nbsp;</td>
         </tr>
         <tr>
           <td></td>
@@ -102,15 +212,16 @@ This represents a single view in the terminal interface. It may contain buttons,
 <div class="memdoc">
 
 <p>
-add some widget to layout, if it is not an instance of QAbstractButton 
+add widget (see QGridLayout) 
 <p>
+Add a button to the specified layout<p>
 Add some widget to the specified layout. Method knows nothing about a widget so it just stays in the layout. 
 </div>
 </div><p>
 <hr>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="interface__view_8h-source.html">interface_view.h</a><li>interface_view.cpp<li>moc_interface_view.cpp</ul>
 </div>
-<hr size="1"><address style="text-align: right;"><small>Generated on Fri Jul 24 13:55:38 2009 for host_interface by&nbsp;
+<hr size="1"><address style="text-align: right;"><small>Generated on Sun Aug 2 20:44:19 2009 for host_interface by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.8 </small></address>
 </body>

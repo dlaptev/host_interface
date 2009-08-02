@@ -70,7 +70,16 @@ second_view::second_view()
 	}
 	connect(signal_mapper,SIGNAL(mapped(int)),this,SLOT(buttonPressed(int)));
 
+	QPalette pal;
+	pal.setColor(QPalette::Background,Qt::white);
+	this->setPalette(pal);
 }
+
+/*!
+ * @param num the number of button pressed
+ *
+ * What to do when button pressed here
+ */
 
 void second_view::buttonPressed(int num)
 {

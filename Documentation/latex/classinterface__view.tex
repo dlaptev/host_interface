@@ -7,6 +7,12 @@ A single view for the terminal interface.
 
 {\tt \#include $<$interface\_\-view.h$>$}
 
+Inheritance diagram for interface\_\-view::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classinterface__view}
+\end{center}
+\end{figure}
 \subsection*{Public Slots}
 \begin{CompactItemize}
 \item 
@@ -18,9 +24,9 @@ void \hyperlink{classinterface__view_2cbfdb9bdf8d47fd9a381df0bc67f434}{buttonPre
 \subsection*{Signals}
 \begin{CompactItemize}
 \item 
-\hypertarget{classinterface__view_3539e6da0e6f70096c07ecb1ba27727a}{
-void \hyperlink{classinterface__view_3539e6da0e6f70096c07ecb1ba27727a}{choice} (int cosen)}
-\label{classinterface__view_3539e6da0e6f70096c07ecb1ba27727a}
+\hypertarget{classinterface__view_0ce60b1adae303b356ac4c1835c40ca4}{
+void \hyperlink{classinterface__view_0ce60b1adae303b356ac4c1835c40ca4}{choice} (int chosen)}
+\label{classinterface__view_0ce60b1adae303b356ac4c1835c40ca4}
 
 \begin{CompactList}\small\item\em signal to inform the manager, what has been chosen \item\end{CompactList}\end{CompactItemize}
 \subsection*{Public Member Functions}
@@ -41,44 +47,154 @@ int \hyperlink{classinterface__view_6c9506e36ddc99d55082b465e7fe89e7}{getLastCho
 \label{classinterface__view_3dc8b90c1b4ce4a59151ad7464e8fbb8}
 
 \begin{CompactList}\small\item\em constructor with the name specified \item\end{CompactList}\item 
-\hypertarget{classinterface__view_5df31c60fdf8e3f87143493a82b8357d}{
-\hyperlink{classinterface__view_5df31c60fdf8e3f87143493a82b8357d}{interface\_\-view} (const QList$<$ QVBoxLayout $\ast$ $>$)}
-\label{classinterface__view_5df31c60fdf8e3f87143493a82b8357d}
+\hypertarget{classinterface__view_ac97156f648f7c66105da7c181974fae}{
+\hyperlink{classinterface__view_ac97156f648f7c66105da7c181974fae}{interface\_\-view} (int)}
+\label{classinterface__view_ac97156f648f7c66105da7c181974fae}
 
-\begin{CompactList}\small\item\em constructor to build custom Vertical Layouts \item\end{CompactList}\item 
-\hypertarget{classinterface__view_29c11da47c599da473ff2fe098454e00}{
-int \hyperlink{classinterface__view_29c11da47c599da473ff2fe098454e00}{addButton} (QAbstractButton $\ast$, int vlayout=0)}
-\label{classinterface__view_29c11da47c599da473ff2fe098454e00}
+\begin{CompactList}\small\item\em constructor to build custom number of vertical Layouts \item\end{CompactList}\item 
+int \hyperlink{classinterface__view_55fe3b79d276a6a477c2e1e5058cf52c}{addWidget} (QWidget $\ast$, int, int, int, int, Qt::Alignment=0)
+\begin{CompactList}\small\item\em add widget (see QGridLayout) \item\end{CompactList}\item 
+\hypertarget{classinterface__view_93faca1ba9dc78bd7e935b0fbbffaea8}{
+int \hyperlink{classinterface__view_93faca1ba9dc78bd7e935b0fbbffaea8}{addButton} (QAbstractButton $\ast$, int, int, int, int, Qt::Alignment=0)}
+\label{classinterface__view_93faca1ba9dc78bd7e935b0fbbffaea8}
 
-\begin{CompactList}\small\item\em add button to the view, vlayout -- the number of vert layout to add button to \item\end{CompactList}\item 
-int \hyperlink{classinterface__view_236caa7c5f081fdbbbf44ab968da47fb}{addWidget} (QWidget $\ast$, int vlayout=0)
-\begin{CompactList}\small\item\em add some widget to layout, if it is not an instance of QAbstractButton \item\end{CompactList}\item 
+\begin{CompactList}\small\item\em add button (see QGridLayout) \item\end{CompactList}\item 
 \hypertarget{classinterface__view_a4cd169f585553ac5247533836767ac3}{
 int \hyperlink{classinterface__view_a4cd169f585553ac5247533836767ac3}{addStretch} (int vlayout)}
 \label{classinterface__view_a4cd169f585553ac5247533836767ac3}
 
 \begin{CompactList}\small\item\em add stretch to the layout \item\end{CompactList}\item 
-\hypertarget{classinterface__view_019075445aa648d995d24806b2f6126e}{
-int \textbf{addHtml} (const QWidget \&)}
-\label{classinterface__view_019075445aa648d995d24806b2f6126e}
+\hypertarget{classinterface__view_c45f295ccb73f4060a5905b2fbb96594}{
+int \textbf{setColumnStretch} (int, int)}
+\label{classinterface__view_c45f295ccb73f4060a5905b2fbb96594}
+
+\item 
+\hypertarget{classinterface__view_2f66ec1f5d5098cc6d6f663dca4472f0}{
+int \textbf{setRowStretch} (int, int)}
+\label{classinterface__view_2f66ec1f5d5098cc6d6f663dca4472f0}
+
+\item 
+\hypertarget{classinterface__view_0d97a28af880209d9c5efb0d93557cc4}{
+int \textbf{columnStretch} (int)}
+\label{classinterface__view_0d97a28af880209d9c5efb0d93557cc4}
+
+\item 
+\hypertarget{classinterface__view_384bbb95ef2eaa82a30c5de7d136c9b7}{
+int \textbf{rowStretch} (int)}
+\label{classinterface__view_384bbb95ef2eaa82a30c5de7d136c9b7}
+
+\item 
+\hypertarget{classinterface__view_59d8a255424d7bd4ebd845eba55bccb4}{
+void \textbf{setNextBtn} (int)}
+\label{classinterface__view_59d8a255424d7bd4ebd845eba55bccb4}
+
+\item 
+\hypertarget{classinterface__view_2c553d635fa81f2997fdce519fd5f7b5}{
+int \textbf{getNextBtn} () const }
+\label{classinterface__view_2c553d635fa81f2997fdce519fd5f7b5}
+
+\item 
+\hypertarget{classinterface__view_7a5331052a82b2e721671f9dc1e26512}{
+void \textbf{setPrevBtn} (int)}
+\label{classinterface__view_7a5331052a82b2e721671f9dc1e26512}
+
+\item 
+\hypertarget{classinterface__view_aee86cad7455059c5220f4d970fc590a}{
+int \textbf{getPrevBtn} () const }
+\label{classinterface__view_aee86cad7455059c5220f4d970fc590a}
+
+\item 
+\hypertarget{classinterface__view_0bef899e9ade91447c5f51e8869f0910}{
+QString \textbf{getName} () const }
+\label{classinterface__view_0bef899e9ade91447c5f51e8869f0910}
+
+\item 
+\hypertarget{classinterface__view_761dc6c1fbb26b2ef976c4c96b1eeaca}{
+void \textbf{setName} (const QString \&)}
+\label{classinterface__view_761dc6c1fbb26b2ef976c4c96b1eeaca}
 
 \end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+\hypertarget{classinterface__view_f1e0c88fdecf4afb1df05258d6f350b8}{
+QList$<$ QAbstractButton $\ast$ $>$ $\ast$ \hyperlink{classinterface__view_f1e0c88fdecf4afb1df05258d6f350b8}{buttons}}
+\label{classinterface__view_f1e0c88fdecf4afb1df05258d6f350b8}
+
+\begin{CompactList}\small\item\em holds buttons \item\end{CompactList}\item 
+\hypertarget{classinterface__view_3a707948a6e7811d73f5e0a73d760e00}{
+QList$<$ QWidget $\ast$ $>$ $\ast$ \hyperlink{classinterface__view_3a707948a6e7811d73f5e0a73d760e00}{stuff}}
+\label{classinterface__view_3a707948a6e7811d73f5e0a73d760e00}
+
+\begin{CompactList}\small\item\em holds other stuff \item\end{CompactList}\item 
+\hypertarget{classinterface__view_57574d4f42c441ea5e13bea130338bc8}{
+QSignalMapper $\ast$ \hyperlink{classinterface__view_57574d4f42c441ea5e13bea130338bc8}{signal\_\-mapper}}
+\label{classinterface__view_57574d4f42c441ea5e13bea130338bc8}
+
+\begin{CompactList}\small\item\em to map the signals \item\end{CompactList}\item 
+\hypertarget{classinterface__view_61745ba0fc9cfd0de1388437ef61f3bd}{
+QHBoxLayout $\ast$ \hyperlink{classinterface__view_61745ba0fc9cfd0de1388437ef61f3bd}{main\_\-layout}}
+\label{classinterface__view_61745ba0fc9cfd0de1388437ef61f3bd}
+
+\begin{CompactList}\small\item\em the main layout \item\end{CompactList}\item 
+\hypertarget{classinterface__view_0bf68665628d3fa3be39c3558b7bcfee}{
+QList$<$ QVBoxLayout $\ast$ $>$ $\ast$ \hyperlink{classinterface__view_0bf68665628d3fa3be39c3558b7bcfee}{vert\_\-layouts}}
+\label{classinterface__view_0bf68665628d3fa3be39c3558b7bcfee}
+
+\begin{CompactList}\small\item\em vertical layouts \item\end{CompactList}\item 
+\hypertarget{classinterface__view_067249953209457785a5c60f72658454}{
+QTextDocument $\ast$ \hyperlink{classinterface__view_067249953209457785a5c60f72658454}{helpDoc}}
+\label{classinterface__view_067249953209457785a5c60f72658454}
+
+\begin{CompactList}\small\item\em may hold help in html format \item\end{CompactList}\item 
+\hypertarget{classinterface__view_caa36380bb9690e725dfff36c86ea6b3}{
+QString $\ast$ \textbf{name}}
+\label{classinterface__view_caa36380bb9690e725dfff36c86ea6b3}
+
+\item 
+\hypertarget{classinterface__view_6e37fda00c60793f253f9c0382a212ba}{
+QGridLayout $\ast$ \hyperlink{classinterface__view_6e37fda00c60793f253f9c0382a212ba}{grdLayout}}
+\label{classinterface__view_6e37fda00c60793f253f9c0382a212ba}
+
+\begin{CompactList}\small\item\em grid layout for the view \item\end{CompactList}\item 
+\hypertarget{classinterface__view_42b38fa9abe0847a6c90612bbc91172d}{
+int \hyperlink{classinterface__view_42b38fa9abe0847a6c90612bbc91172d}{last\_\-choice}}
+\label{classinterface__view_42b38fa9abe0847a6c90612bbc91172d}
+
+\begin{CompactList}\small\item\em the button that was pressed last \item\end{CompactList}\item 
+\hypertarget{classinterface__view_5fc137482a8945bd8dc310357247a2bb}{
+int \hyperlink{classinterface__view_5fc137482a8945bd8dc310357247a2bb}{btn\_\-number}}
+\label{classinterface__view_5fc137482a8945bd8dc310357247a2bb}
+
+\begin{CompactList}\small\item\em the number of buttons; == buttons.size(); \item\end{CompactList}\item 
+\hypertarget{classinterface__view_587114c739e5bfe63f79daa4653fb91d}{
+int \hyperlink{classinterface__view_587114c739e5bfe63f79daa4653fb91d}{nextBtn}}
+\label{classinterface__view_587114c739e5bfe63f79daa4653fb91d}
+
+\begin{CompactList}\small\item\em number of the button that tells to go to next view \item\end{CompactList}\item 
+\hypertarget{classinterface__view_6f99c38583db8aaf39bd52034ad56b50}{
+int \hyperlink{classinterface__view_6f99c38583db8aaf39bd52034ad56b50}{prevBtn}}
+\label{classinterface__view_6f99c38583db8aaf39bd52034ad56b50}
+
+\begin{CompactList}\small\item\em number of the button that tells to go to prev view \item\end{CompactList}\end{CompactItemize}
 
 
 \subsection{Detailed Description}
 A single view for the terminal interface. 
 
-This represents a single view in the terminal interface. It may contain buttons, html views, labels, and other children of QWidget. Basically there are three vertical layouts in the class, contained in one main horisontal layout 
+This represents a single view in the terminal interface. It may contain buttons, html views, labels, and other children of QWidget. Basically there are three vertical layouts in the class, contained in one main horisontal layout. However, the view may be created with custom layouts in it. This can be done by passing a list of pointers to vertical layouts to the constructor. 
 
 \subsection{Member Function Documentation}
-\hypertarget{classinterface__view_236caa7c5f081fdbbbf44ab968da47fb}{
+\hypertarget{classinterface__view_55fe3b79d276a6a477c2e1e5058cf52c}{
 \index{interface\_\-view@{interface\_\-view}!addWidget@{addWidget}}
 \index{addWidget@{addWidget}!interface_view@{interface\_\-view}}
-\subsubsection[{addWidget}]{\setlength{\rightskip}{0pt plus 5cm}int interface\_\-view::addWidget (QWidget $\ast$ {\em wgt}, \/  int {\em vlayout} = {\tt 0})}}
-\label{classinterface__view_236caa7c5f081fdbbbf44ab968da47fb}
+\subsubsection[{addWidget}]{\setlength{\rightskip}{0pt plus 5cm}int interface\_\-view::addWidget (QWidget $\ast$ {\em wgt}, \/  int {\em fromRow}, \/  int {\em fromColumn}, \/  int {\em rowSpan}, \/  int {\em columnSpan}, \/  Qt::Alignment {\em alignment} = {\tt 0})}}
+\label{classinterface__view_55fe3b79d276a6a477c2e1e5058cf52c}
 
 
-add some widget to layout, if it is not an instance of QAbstractButton 
+add widget (see QGridLayout) 
+
+Add a button to the specified layout
 
 Add some widget to the specified layout. Method knows nothing about a widget so it just stays in the layout. 
 

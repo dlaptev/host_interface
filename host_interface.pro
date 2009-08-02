@@ -8,10 +8,12 @@ SOURCES += main.cpp \
     terminal_manager.cpp \
     terminal_interface.cpp \
     interface_view.cpp \
-    second_view.cpp
+    second_view.cpp \
+    first_view.cpp
 QT += svg
 HEADERS += qtsvgbutton.h \
     terminal_manager.h \
     terminal_interface.h \
     interface_view.h \
-    second_view.h
+    second_view.h \
+    first_view.h

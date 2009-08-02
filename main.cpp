@@ -7,6 +7,7 @@
 #include "qtsvgbutton.h"
 #include "interface_view.h"
 #include "second_view.h"
+#include "first_view.h"
 
 /*!
  @mainpage Ticketland ticket selling system documentation
@@ -28,6 +29,8 @@ int main(int argc, char *argv[])
 	second_view *view2 = new second_view();
 	view2->show();
 
+	first_view *view1 = new first_view();
+	view1->show();
 
 	// QWidget * widget = new QWidget();
 
