@@ -2,7 +2,7 @@
 # Project created by QtCreator 2009-07-05T18:48:16
 # -------------------------------------------------
 TARGET = host_interface
-TEMPLATE = app subdirs
+TEMPLATE = app
 SUBDIRS = mysql
 SOURCES += main.cpp \
 	qtsvgbutton.cpp \
