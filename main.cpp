@@ -3,9 +3,12 @@
 #include <QtGui/QBoxLayout>
 #include <QSizePolicy>
 #include <QString>
+#include <QtSql>
 
 #include "qtsvgbutton.h"
 #include "interface_view.h"
+#include "help_view.h"
+
 #include "second_view.h"
 #include "first_view.h"
 
@@ -26,11 +29,22 @@ int main(int argc, char *argv[])
 {
 	QApplication app(argc, argv);
 
+	 QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+	 db.setHostName("bigblue");
+	 db.setDatabaseName("flightdb");
+	 db.setUserName("acarlson");
+	 db.setPassword("1uTbSbAs");
+	 bool ok = db.open();
+
+	 qDebug()<< ok <<endl;
 	second_view *view2 = new second_view();
 	view2->show();
 
 	first_view *view1 = new first_view();
 	view1->show();
+
+	help_view *view3 = new help_view();
+	view3->show();
 
 	// QWidget * widget = new QWidget();
 
