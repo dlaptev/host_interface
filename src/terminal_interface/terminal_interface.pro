@@ -1,18 +1,18 @@
-TEMPLATE = app 
-INCLUDEPATH += . 
+INCLUDEPATH += $$PWD
 
-include (../qtsvgbutton/qtsvgbutton.pro) 
+HEADERS += 	$$PWD/first_view.h \
+		$$PWD/second_view.h \
+		$$PWD/help_view.h \
+		$$PWD/interface_view.h \
+		$$PWD/terminal_interface.h
 
-CONFIG += debug 
 
-HEADERS += 	first_view.h \ 
-		second_view.h \
-		help_view.h \
-		interface_view.h \
-		interface_view.h
+SOURCES += 	$$PWD/first_view.cpp \
+		$$PWD/help_view.cpp \
+		$$PWD/interface_view.cpp \
+		$$PWD/second_view.cpp \
+		$$PWD/terminal_interface.cpp
 
-SOURCES += 	first_view.cpp \
-		help_view.cpp 
-		interface_view.cpp \
-		second_view.cpp \
-		terminal_interface.cpp
+QT += svg
+QT += webkit
+

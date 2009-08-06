@@ -5,6 +5,7 @@
 
 #include "qtsvgbutton.h"
 
+
 QtSvgButton::QtSvgButton(QWidget * parent)
 	: QAbstractButton(parent)
 {

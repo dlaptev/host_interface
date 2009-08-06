@@ -5,12 +5,12 @@
 #include <QString>
 #include <QtSql>
 
-#include "qtsvgbutton.h"
-#include "interface_view.h"
-#include "help_view.h"
+#include <QtSvgButton>
+#include <interfaceView>
+#include <helpView>
 
-#include "second_view.h"
-#include "first_view.h"
+#include <secondView>
+#include <firstView>
 
 /*!
  @mainpage Ticketland ticket selling system documentation
@@ -29,14 +29,14 @@ int main(int argc, char *argv[])
 {
 	QApplication app(argc, argv);
 
-	 QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
-	 db.setHostName("bigblue");
-	 db.setDatabaseName("flightdb");
-	 db.setUserName("acarlson");
-	 db.setPassword("1uTbSbAs");
-	 bool ok = db.open();
-
-	 qDebug()<< ok <<endl;
+//	 QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+//	 db.setHostName("bigblue");
+//	 db.setDatabaseName("flightdb");
+//	 db.setUserName("acarlson");
+//	 db.setPassword("1uTbSbAs");
+//	 bool ok = db.open();
+//
+//	 qDebug()<< ok <<endl;
 	second_view *view2 = new second_view();
 	view2->show();
 

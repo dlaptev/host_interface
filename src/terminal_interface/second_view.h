@@ -4,7 +4,7 @@
 #include "interface_view.h"
 #include "qtsvgbutton.h"
 #include "terminal_interface.h"
-#include "terminal_manager.h"
+//#include "terminal_manager.h"
 
 #include <QLabel>
 #include <QObject>
@@ -34,7 +34,7 @@ class second_view : public interface_view
 	int tickets_number;		//!< number of tickets chosen
 	int tickets_price;		//!< price for all tickets
 	//int price;
-	terminal_manager * parent; //!< pointer to the manager
+//	terminal_manager * parent; //!< pointer to the manager
 
 public:
 
